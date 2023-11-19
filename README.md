@@ -21,9 +21,9 @@
 ## Step 7) JavaScript
 
 ## Step 8) now follow the instructions that are stated on the terminal, they'll be as follows:
-cd yourProjectName
-npm install (this step takes some time)
-npm run dev (open the url in the browser to run the project locally)
+# cd yourProjectName
+# npm install (this step takes some time)
+# npm run dev (open the url in the browser to run the project locally)
 ## Note: to close the server, press Ctrl+C on windows.
 
 ## Step 9) make the necessary changes (make sure to include all assets[images/audio/png/jpeg/etc] in the public folder, and other HTML, CSS, js, jsx files in src folder.
@@ -32,25 +32,30 @@ npm run dev (open the url in the browser to run the project locally)
 # Next we deploy it to netlify using the netlify cli:
 
 ## Step 1) to build the project for deployment/production, run the following in the terminal after closing the server:
-npm run build
-## Step 2) to check how the project will look after deployment, run:
-npm run preview
-again, close the server after checking that it runs perfectly
-## Step 3) create netlify account, then run:
-npm install -g netlify-cli
-## Note: this needs to be done only once per device
-## Step 4) in the terminal, and if it asks for authorization, do so:
-ntl init
-then, select: Yes, create and deploy site manually
-enter team name
-enter site name
-## Step 5) run the following(make sure you are in correct folder):
-ntl deploy
-if it asks for a folder, type public
-## Step 6) run the following:
-netlify deploy --prod
-if it asks for folder, type dist
+# npm run build
 
-it will generate a website url, that is our site's url that can be shared.
-here is my site's url:  https://firstreactappviavite.netlify.app/
+## Step 2) to check how the project will look after deployment, run:
+# npm run preview
+# again, close the server after checking that it runs perfectly
+
+## Step 3) create netlify account, then run:
+# npm install -g netlify-cli
+## Note: this needs to be done only once per device
+
+## Step 4) in the terminal, and if it asks for authorization, do so:
+# ntl init
+# then, select: Yes, create and deploy site manually
+# enter team name
+# enter site name
+
+## Step 5) run the following(make sure you are in correct folder):
+# ntl deploy
+# if it asks for a folder, type public
+
+## Step 6) run the following:
+# netlify deploy --prod
+# if it asks for folder, type dist
+
+# it will generate a website url, that is our site's url that can be shared.
+# here is my site's url:  https://firstreactappviavite.netlify.app/
 
